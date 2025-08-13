@@ -18,7 +18,7 @@ const activities = [
     participants: 25,
     location: "Lapangan Sekolah",
     category: "Olahraga",
-    color: "bg-success"
+    color: "bg-primary"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const activities = [
     participants: 20,
     location: "Ruang Seni",
     category: "Seni",
-    color: "bg-warning"
+    color: "bg-secondary"
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const activities = [
     participants: 18,
     location: "Lab Sains",
     category: "Sains",
-    color: "bg-info"
+    color: "bg-primary/80"
   }
 ];
 

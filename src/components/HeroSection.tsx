@@ -45,11 +45,11 @@ const HeroSection = () => {
                 <div className="text-sm text-muted-foreground">Kegiatan Ekstrakurikuler</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-secondary">500+</div>
+                <div className="text-3xl font-bold text-primary">500+</div>
                 <div className="text-sm text-muted-foreground">Siswa Aktif</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-accent">25+</div>
+                <div className="text-3xl font-bold text-primary">25+</div>
                 <div className="text-sm text-muted-foreground">Guru Pembimbing</div>
               </div>
             </div>
@@ -67,14 +67,14 @@ const HeroSection = () => {
             </div>
             
             {/* Floating Cards */}
-            <div className="absolute -top-6 -left-6 bg-card p-4 rounded-lg shadow-soft animate-bounce-gentle">
-              <div className="text-2xl font-bold text-success">🏆</div>
+            <div className="absolute -top-6 -left-6 bg-card p-4 rounded-lg shadow-soft animate-bounce-gentle border border-primary/20">
+              <div className="text-2xl font-bold text-primary">🏆</div>
               <div className="text-sm font-medium">Juara 1</div>
               <div className="text-xs text-muted-foreground">Lomba Sains</div>
             </div>
             
-            <div className="absolute -bottom-6 -right-6 bg-card p-4 rounded-lg shadow-soft animate-bounce-gentle" style={{animationDelay: "0.5s"}}>
-              <div className="text-2xl font-bold text-info">🎨</div>
+            <div className="absolute -bottom-6 -right-6 bg-card p-4 rounded-lg shadow-soft animate-bounce-gentle border border-secondary/20" style={{animationDelay: "0.5s"}}>
+              <div className="text-2xl font-bold text-secondary">🎨</div>
               <div className="text-sm font-medium">15 Karya</div>
               <div className="text-xs text-muted-foreground">Pameran Seni</div>
             </div>

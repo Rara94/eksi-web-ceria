@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Bell, GraduationCap, LogIn } from "lucide-react";
-import { useState } from "react";
-import LoginDialog from "./LoginDialog";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const [isLoginOpen, setIsLoginOpen] = useState(false);
+  const navigate = useNavigate();
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -44,16 +43,14 @@ const Header = () => {
           </Button>
           
           <Button 
-            onClick={() => setIsLoginOpen(true)}
+            onClick={() => navigate("/login")}
             className="bg-gradient-primary text-white hover:shadow-glow transition-all duration-300"
           >
             <LogIn className="mr-2 h-4 w-4" />
-            Login
+            Masuk
           </Button>
         </div>
       </div>
-
-      <LoginDialog open={isLoginOpen} onOpenChange={setIsLoginOpen} />
     </header>
   );
 };
