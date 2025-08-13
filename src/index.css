@@ -17,32 +17,32 @@ All colors MUST be HSL.
     --popover: 255 255 255;
     --popover-foreground: 15 23 42;
 
-    --primary: 34 197 94;
-    --primary-foreground: 255 255 255;
+    --primary: 147 197 253;
+    --primary-foreground: 30 58 138;
 
-    --secondary: 59 130 246;
-    --secondary-foreground: 255 255 255;
+    --secondary: 191 219 254;
+    --secondary-foreground: 30 58 138;
 
     --muted: 241 245 249;
     --muted-foreground: 100 116 139;
 
-    --accent: 168 85 247;
-    --accent-foreground: 255 255 255;
+    --accent: 165 180 252;
+    --accent-foreground: 30 58 138;
 
     /* Educational theme colors */
     --success: 34 197 94;
     --warning: 251 146 60;
-    --info: 59 130 246;
+    --info: 147 197 253;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(34 197 94), hsl(59 130 246));
-    --gradient-secondary: linear-gradient(135deg, hsl(168 85 247), hsl(236 72 79));
-    --gradient-hero: linear-gradient(135deg, hsl(34 197 94 / 0.1), hsl(59 130 246 / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(147 197 253), hsl(191 219 254));
+    --gradient-secondary: linear-gradient(135deg, hsl(165 180 252), hsl(199 210 254));
+    --gradient-hero: linear-gradient(135deg, hsl(147 197 253 / 0.1), hsl(191 219 254 / 0.1));
     
     /* Shadows */
     --shadow-soft: 0 4px 6px -1px hsl(0 0 0 / 0.1);
     --shadow-elevated: 0 10px 15px -3px hsl(0 0 0 / 0.1);
-    --shadow-glow: 0 0 20px hsl(34 197 94 / 0.3);
+    --shadow-glow: 0 0 20px hsl(147 197 253 / 0.3);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -84,11 +84,11 @@ All colors MUST be HSL.
     --popover: 30 41 59;
     --popover-foreground: 248 250 252;
 
-    --primary: 34 197 94;
+    --primary: 147 197 253;
     --primary-foreground: 15 23 42;
 
-    --secondary: 59 130 246;
-    --secondary-foreground: 248 250 252;
+    --secondary: 191 219 254;
+    --secondary-foreground: 15 23 42;
 
     --muted: 51 65 85;
     --muted-foreground: 148 163 184;

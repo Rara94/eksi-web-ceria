@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { GraduationCap, User, Shield } from "lucide-react";
 
 interface LoginDialogProps {
@@ -19,11 +20,25 @@ interface LoginDialogProps {
 
 const LoginDialog = ({ open, onOpenChange }: LoginDialogProps) => {
   const [activeRole, setActiveRole] = useState("siswa");
+  const navigate = useNavigate();
 
   const handleLogin = (role: string) => {
-    // TODO: Implement login logic
+    // TODO: Implement proper authentication
     console.log(`Login as ${role}`);
     onOpenChange(false);
+    
+    // Redirect to appropriate dashboard
+    switch (role) {
+      case "siswa":
+        navigate("/siswa");
+        break;
+      case "guru":
+        navigate("/guru");
+        break;
+      case "admin":
+        navigate("/admin");
+        break;
+    }
   };
 
   return (
